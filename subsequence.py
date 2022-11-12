@@ -44,7 +44,7 @@ class divide_and_conquer():
 
 class dynamic_programming():
 
-# This is my code basing on my understanding. Dunno what the time complexity is.
+# This is my code based on my understanding. Dunno what the time complexity is.
 
     def maxsub(lst):
         if len(lst) == 1:
