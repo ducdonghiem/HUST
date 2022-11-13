@@ -1,4 +1,4 @@
-def hanoi_tower(n, a, b, c):
+def hanoi_tower(n, a, b, c):   # T(n) = 2^n - 1 = O(2^n)
     if n == 1:
         print(a, '-->', c)
     else:
