@@ -8,6 +8,7 @@ def df(x):
 def Hf(x):
     return np.array([[2, -1], [-1, 2]])
 
+# this method derives from the base Newton method for finding roots of a function.
 def newton(x0):
     x = x0
     for i in range(10):
